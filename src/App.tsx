@@ -15,8 +15,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          {/* Site temporarily offline — all routes show 404 */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
