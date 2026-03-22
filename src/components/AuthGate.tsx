@@ -10,7 +10,7 @@ const AuthGate = ({ children }: { children: React.ReactNode }) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === "madisonmccoy" && password === "thereal1!") {
+    if (username === "delilah" && password === "thereal1!") {
       sessionStorage.setItem("authed", "1");
       setAuthed(true);
     } else {
@@ -27,7 +27,7 @@ const AuthGate = ({ children }: { children: React.ReactNode }) => {
     <div className="min-h-screen bg-background flex items-center justify-center section-padding">
       <form onSubmit={handleSubmit} className="w-full max-w-xs space-y-6">
         <div className="flex justify-center">
-          <img src={logo} alt="Madison McCoy" className="h-12 w-auto object-contain" />
+          <img src={logo} alt="The Real Delilah" className="h-12 w-auto object-contain" />
         </div>
         <input
           type="text"

@@ -24,7 +24,7 @@ const BookingSection = () => {
             Thank You
           </h2>
           <p className="text-base font-light text-charcoal-light leading-relaxed">
-            Your appointment request has been received. Madison will be in touch shortly to confirm your session.
+            Your appointment request has been received. Delilah will be in touch shortly to confirm your session.
           </p>
         </div>
       </section>
@@ -56,7 +56,7 @@ const BookingSection = () => {
           }`}
         >
           <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_subject" value="New Appointment Request — Madison McCoy" />
+          <input type="hidden" name="_subject" value="New Appointment Request — The Real Delilah" />
 
           <div className="space-y-6">
             <input

@@ -18,7 +18,7 @@ const Header = () => {
     >
       <nav className="flex items-center justify-between max-w-7xl mx-auto">
         <a href="#hero">
-          <img src={logo} alt="Madison McCoy" className="h-8 w-auto object-contain" />
+          <img src={logo} alt="The Real Delilah" className="h-8 w-auto object-contain" />
         </a>
         <div className="hidden md:flex items-center gap-10">
           {["Approach", "Gallery", "Booking"].map((item) => (
