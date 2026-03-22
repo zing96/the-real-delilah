@@ -24,7 +24,7 @@ const BookingSection = () => {
             Thank You
           </h2>
           <p className="text-base font-light text-charcoal-light leading-relaxed">
-            Your appointment request has been received. Madison will be in touch shortly to confirm your session.
+            Your appointment request has been received. Delilah will be in touch shortly to confirm your session.
           </p>
         </div>
       </section>
