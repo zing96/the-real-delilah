@@ -10,7 +10,7 @@ const AuthGate = ({ children }: { children: React.ReactNode }) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === "madisonmccoy" && password === "thereal1!") {
+    if (username === "delilah" && password === "thereal1!") {
       sessionStorage.setItem("authed", "1");
       setAuthed(true);
     } else {
