@@ -48,14 +48,14 @@ const BookingSection = () => {
         </div>
 
         <form
-          action="https://formsubmit.co/gavin.zingsheim@gmail.com"
+          action="https://formsubmit.co/827d3927c1fae02ccbebfcb60a3ef6a3"
           method="POST"
           onSubmit={() => setSubmitted(true)}
           className={`space-y-8 transition-all duration-700 delay-150 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
           }`}
         >
-          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" style={{ display: "none" }} />
           <input type="hidden" name="_subject" value="New Appointment Request — The Real Delilah" />
 
           <div className="space-y-6">
