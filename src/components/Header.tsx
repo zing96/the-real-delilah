@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -16,8 +17,8 @@ const Header = () => {
       }`}
     >
       <nav className="flex items-center justify-between max-w-7xl mx-auto">
-        <a href="#hero" className="text-foreground tracking-[0.25em] text-sm font-light uppercase">
-          Madison McCoy
+        <a href="#hero">
+          <img src={logo} alt="Madison McCoy" className="h-8 w-auto object-contain" />
         </a>
         <div className="hidden md:flex items-center gap-10">
           {["Approach", "Gallery", "Booking"].map((item) => (

@@ -1,18 +1,12 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
-import gallery5 from "@/assets/gallery-5.jpg";
-import gallery6 from "@/assets/gallery-6.jpg";
+import gallery1 from "@/assets/gallery-new-1.png";
+import gallery2 from "@/assets/gallery-new-2.png";
+import gallery3 from "@/assets/gallery-new-3.jpg";
 
 const images = [
-  { src: gallery1, alt: "Smooth river stones with essential oil", tall: true },
-  { src: gallery2, alt: "Massage oil and fresh botanicals", tall: false },
-  { src: gallery3, alt: "Candlelit spa setting", tall: false },
-  { src: gallery4, alt: "Fresh eucalyptus in ceramic vase", tall: true },
-  { src: gallery5, alt: "Hot stones on wooden tray", tall: false },
-  { src: gallery6, alt: "Serene massage studio interior", tall: false },
+  { src: gallery1, alt: "Artistic silhouette with chandelier" },
+  { src: gallery2, alt: "Modern luxury suite with fireplace" },
+  { src: gallery3, alt: "Lace and bow detail in black and white" },
 ];
 
 const GallerySection = () => {
