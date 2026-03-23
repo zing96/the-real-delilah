@@ -56,7 +56,7 @@ const BookingSection = () => {
           }`}
         >
           <input type="text" name="_honey" style={{ display: "none" }} />
-          <input type="hidden" name="_subject" value="New Appointment Request — The Real Delilah" />
+          <input type="hidden" name="_subject" value="New Appointment Request - The Real Delilah" />
 
           <div className="space-y-6">
             <input
