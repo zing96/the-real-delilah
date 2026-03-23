@@ -29,7 +29,7 @@ const ApproachSection = () => {
               Therapeutic Restoration
             </h3>
             <p className="text-base font-light leading-[1.8] text-charcoal-light">
-              Each session is tailored to your body's unique needs — blending deep tissue
+              Each session is tailored to your body's unique needs, blending deep tissue
               techniques with intuitive touch to dissolve chronic tension and encourage
               natural healing. The result is a body that moves more freely and a mind
               that rests more deeply.
