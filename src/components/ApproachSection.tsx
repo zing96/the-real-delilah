@@ -47,7 +47,7 @@ const ApproachSection = () => {
             <p className="text-base font-light leading-[1.8] text-charcoal-light">
               Beyond technique, there is atmosphere. Warm lighting, curated scents,
               and unhurried attention create an environment where your nervous system
-              can fully surrender. This is not indulgence — it is essential care,
+              can fully surrender. This is not indulgence. It is essential care,
               elevated.
             </p>
           </div>
