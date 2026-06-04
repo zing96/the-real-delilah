@@ -4,9 +4,9 @@ import gallery2 from "@/assets/gallery-new-2.png";
 import gallery3 from "@/assets/gallery-new-3.jpg";
 
 const images = [
-  { src: gallery1, alt: "Artistic silhouette with chandelier" },
-  { src: gallery2, alt: "Modern luxury suite with fireplace" },
-  { src: gallery3, alt: "Lace and bow detail in black and white" },
+  { src: gallery1, alt: "Candlelit spa with folded towels and a white orchid" },
+  { src: gallery2, alt: "Serene wellness suite with linen-draped table and eucalyptus" },
+  { src: gallery3, alt: "Black and white spa detail of stacked stones and candles" },
 ];
 
 const GallerySection = () => {
